@@ -1,0 +1,115 @@
+footer {
+    background-color: var(--color-footer);
+    color: var(--color-white);
+    font-size: 0.8125rem
+}
+
+.footer_container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+max-width: 100%;
+}
+
+.footer_header {
+    width: 100%;
+    padding-top: 56px;
+}
+
+.logo_footer {
+    margin-bottom: 40.31px;
+}
+
+.line_block {
+  width: 100%;
+  margin: 40px 0px;
+}
+
+.line {
+  border: none;
+  margin: 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.footer-links-block {
+  width: calc(956px / 3);
+}
+
+.footer-links-block_2 {
+  width: calc(956px / 3);
+  font-size: 0.6875rem;
+  padding-bottom: 17px;
+  
+}
+
+.footer_background {
+  width: 100%;
+}
+
+.link {
+  position: relative;
+  margin-bottom: 23px;
+}
+.language-selector-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.language-selector-container > img {
+  z-index: 1;
+  padding: 0px 16px;
+}
+
+.language-selector {
+  position: absolute;
+  border-radius: var(--border-radius);
+  border-color: var(--color-language);
+  color: var(--color-white);
+  height: 40px;
+  padding: 10px 128px 10px 48px;
+  appearance: none;
+  background: url(../Extras/select_arrow.svg) 93% no-repeat var(--color-language);
+}
+
+.language-selector:focus {
+  outline: none;
+}
+
+.hashtag {
+  font-size: 1rem;
+  margin-bottom: 17px;
+}
+
+.greentext {
+  color: var(--color-green);
+}
+
+a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--color-white);
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+}
+
+.social_facebook,
+.social_twitter,
+.social_instagram {
+  margin-right: 10px;
+}
+
+.download {
+  display: flex;
+  margin: auto;
+}
+
+.download_button {
+  padding: 0px 20px;
+}

@@ -1,0 +1,35 @@
+:root {
+--color-green: #57AD56;
+--color-black: #1D1D1D;
+--color-gray: #626262;
+--color-white: white;
+--color-border: #E0E0E0;
+--color-search: #DBDBDB;
+--color-underline: #D6D6D6;
+--color-shadow: #979797;
+--color-language: #3B3B3B;
+--color-hover: #EFEFEF;
+--color-footer: #262626;
+--border-radius: 2px;
+--max-width: 956px;
+
+font-family: 'roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: var(--color-black);
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: var(--max-width);
+    height: 100%;
+    padding: 0;
+}
+
+a:link a:visited {
+    color: var(--color-white);
+    text-decoration: none;
+}

@@ -1,0 +1,122 @@
+.store {
+    height: 364px;
+}
+
+.store_img {
+    background-image: url(../Extras/page2/restaurant.jpg);
+    width: 1124px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px 80px 0px;
+}
+
+.store_card {
+    background-color: var(--color-white);
+    width: 389px;
+
+}
+
+.store_name {
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 38px 0 63px 0;
+}
+
+.text_group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.store_type {
+    font-size: 0.875rem;
+    color: var(--color-gray);
+}
+
+.text_group {
+    padding: 0 38px 38px 38px;
+}
+
+.store_time {
+    font-size: 0.8125rem;
+    background-color: var(--color-footer);
+    color: var(--color-white);
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+.nav_menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    box-shadow: 0 1px 1px -1px var(--color-gray);
+}
+
+.menu_link {
+    font-size: 1rem;
+    color: var(--color-gray);
+    padding: 34px 40px 30px 0px;
+}
+
+.menu_link:active {
+    color: var(--color-green);
+}
+
+.category {
+    font-size: 22px;
+    margin: 64px 0 35px 0;
+}
+
+.dishes {
+    margin-bottom: calc(80px - 49px);
+}
+
+.dish_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 160px;
+    border: 1px solid var(--color-border);
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    margin-bottom: 49px;
+}
+
+.dish_card:hover {
+    background-color: var(--color-hover);
+}
+
+.dish_img img{
+    max-height: 100%;
+    border-radius: var(--border-radius);
+}
+
+.text_dish_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 100%;
+    padding: 20px 0 20px 1rem;
+}
+
+.dish_name {
+    font-size: 1rem;
+    color: var(--color-black);
+}
+
+.add {
+    font-size: 0.8125rem;
+    color: var(--color-gray);
+    margin-top: 10px;
+}
+
+.price {
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+.dish_link {
+    text-decoration: none;
+}

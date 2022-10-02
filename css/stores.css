@@ -1,0 +1,85 @@
+.stores {
+    padding-bottom: calc(80px - 1rem);
+}
+
+.stores_header {
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+}
+
+.store_img {
+    overflow: hidden;
+}
+
+.store_img img{
+    width: 100%;
+    transition: 0.5s;
+    display: block;
+}
+
+.store_img img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.card:hover{
+    background-color: var(--color-hover);
+}
+
+.store_link {
+    text-decoration: none;
+}
+
+.text_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 20px;
+    height: calc(110px - 1rem - 20px);
+}
+
+.store_name {
+    font-size: 1rem;
+    color: var(--color-black);
+}
+
+.store_type {
+    font-size: 0.875rem;
+    color: var(--color-gray);
+}
+
+.store_time {
+    font-size: 0.8125rem;
+    color: var(--color-black);
+}
+
+.topbutton {
+    width: 80px;
+    height: 80px;
+    background-color : var(--color-green);
+    border-radius: var(--border-radius);
+    position:fixed;
+    bottom:24px;
+    right:16px;
+    
+}
+
+.topbutton > img {
+    margin: 27.5px 32.5px;
+}
+
+@media screen and (min-width: 320px) {
+    .topbutton {
+    width: 64px;
+    height: 64px;        
+    }
+
+    .topbutton > img {
+      margin: 19.5px 24.5px;
+    }
+  }
